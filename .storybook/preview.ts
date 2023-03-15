@@ -29,4 +29,10 @@ export const parameters = {
             date: /Date$/,
         },
     },
+    options: {
+        storySort: {
+            method: 'alphabetical',
+            order: ['Get Started', ['Introduction', 'Changelog'], 'Components', 'Layouts', 'Forms', 'Loading Screens'],
+        },
+    },
 }
