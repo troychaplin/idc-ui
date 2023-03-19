@@ -3,17 +3,17 @@ import { Button } from './Button'
 
 // More on how to set up stories at: https://storybook.js.org/docs/7.0/react/writing-stories/introduction
 const meta = {
-    title: 'Components/Button',
-    component: Button,
-    tags: ['autodocs'],
-    parameters: {
-        controls: {
-            sort: 'requiredFirst',
-        },
+  title: 'Components/Button',
+  component: Button,
+  tags: ['autodocs'],
+  parameters: {
+    controls: {
+      sort: 'requiredFirst',
     },
-    argTypes: {
-        backgroundColor: { control: 'color' },
-    },
+  },
+  argTypes: {
+    backgroundColor: { control: 'color' },
+  },
 } satisfies Meta<typeof Button>
 
 export default meta
@@ -21,28 +21,28 @@ type Story = StoryObj<typeof meta>
 
 // More on writing stories with args: https://storybook.js.org/docs/7.0/react/writing-stories/args
 export const Primary: Story = {
-    args: {
-        primary: true,
-        label: 'Button',
-    },
+  args: {
+    primary: true,
+    label: 'Button',
+  },
 }
 
 export const Secondary: Story = {
-    args: {
-        label: 'Button',
-    },
+  args: {
+    label: 'Button',
+  },
 }
 
 export const Large: Story = {
-    args: {
-        size: 'large',
-        label: 'Button',
-    },
+  args: {
+    size: 'large',
+    label: 'Button',
+  },
 }
 
 export const Small: Story = {
-    args: {
-        size: 'small',
-        label: 'Button',
-    },
+  args: {
+    size: 'small',
+    label: 'Button',
+  },
 }

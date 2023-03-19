@@ -6,22 +6,22 @@ import tsConfigPaths from 'vite-tsconfig-paths'
 import * as packageJson from './package.json'
 
 export default defineConfig(() => ({
-    plugins: [
-        react(),
-        tsConfigPaths(),
-        dts({
-            include: ['src'],
-        }),
-    ],
-    build: {
-        lib: {
-            entry: resolve('src', 'index.ts'),
-            name: 'design-ui',
-            formats: ['es', 'umd'],
-            fileName: (format) => `design-ui.${format}.js`,
-        },
-        rollupOptions: {
-            external: [...Object.keys(packageJson.peerDependencies)],
-        },
+  plugins: [
+    react(),
+    tsConfigPaths(),
+    dts({
+      include: ['src'],
+    }),
+  ],
+  build: {
+    lib: {
+      entry: resolve('src', 'index.ts'),
+      name: 'idc-ui',
+      formats: ['es', 'umd'],
+      fileName: (format) => `idc-ui.${format}.js`,
     },
+    rollupOptions: {
+      external: [...Object.keys(packageJson.peerDependencies)],
+    },
+  },
 }))
