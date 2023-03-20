@@ -1,0 +1,2 @@
+const e={actions:{argTypesRegex:"^on[A-Z].*"},backgrounds:{default:"white",values:[{name:"white",value:"#ffffff"},{name:"light grey",value:"#f3f3f3"},{name:"dark grey",value:"#3e3e3e"},{name:"black",value:"#000000"}]},controls:{expanded:!0,matchers:{color:/(background|color)$/i,date:/Date$/}},options:{storySort:{method:"alphabetical",order:["Get Started",["Introduction","Changelog"],"Components","Layouts","Forms","Loading Screens"]}}};export{e as parameters};
+//# sourceMappingURL=preview-d280a5af.js.map
