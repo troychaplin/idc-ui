@@ -1,7 +1,7 @@
 {
   "name": "@troychaplin79/idc-ui",
   "private": false,
-  "version": "0.0.0",
+  "version": "0.0.1",
   "type": "module",
   "main": "dist/idc-ui.cjs.js",
   "module": "dist/idc-ui.es.js",
