@@ -1,16 +1,16 @@
 # Design UI
 
-![npm](https://img.shields.io/npm/v/@troychaplin79/design-ui)
+![npm](https://img.shields.io/npm/v/@troychaplin79/idc-ui)
 
 Personal design system and react component library of [Troy Chaplin](https://github.com/troychaplin)
 
 The library is built with:
 
--   [React](https://reactjs.org/)
--   [Storybook](https://storybook.js.org/)
--   [Tailwind CSS](https://tailwindcss.com/)
--   [TypeScript](https://www.typescriptlang.org/)
--   [Vite](https://vitejs.dev/)
+- [React](https://reactjs.org/)
+- [Storybook](https://storybook.js.org/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [Vite](https://vitejs.dev/)
 
 ## Get Started
 
@@ -34,21 +34,21 @@ yarn build
 
 ## Deployment
 
-This project uses GitHub Actions to deploy the [NPM Package](https://www.npmjs.com/package/@troychaplin79/design-ui) and to build the [Storybook docs](https://troychaplin.github.io/design-ui/).
+This project uses GitHub Actions to deploy the [NPM Package](https://www.npmjs.com/package/@troychaplin79/idc-ui) and to build the [Storybook docs](https://troychaplin.github.io/idc-ui/).
 
 ## How to use in a project
 
 Install the package:
 
 ```
-yarn add @troychaplin79/design-ui
+yarn add @troychaplin79/idc-ui
 ```
 
 Import the css file:
 
 ```css
 /* yourmaincssfile.css */
-@import '../node_modules/@troychaplin79/design-ui/dist/index.css';
+@import '../node_modules/@troychaplin79/idc-ui/dist/index.css';
 ```
 
 ## TailwindCSS
@@ -61,7 +61,7 @@ The CSS for this library is built with Tailwind. If the project you are building
 @tailwind components;
 @tailwind utilities;
 
-@import '../node_modules/@troychaplin79/design-ui/dist/index.css';
+@import '../node_modules/@troychaplin79/idc-ui/dist/index.css';
 ```
 
 Update your [Tailwind config file](https://tailwindcss.com/docs/configuration):
@@ -69,11 +69,11 @@ Update your [Tailwind config file](https://tailwindcss.com/docs/configuration):
 ```javascript
 // tailwind.config.js
 module.exports = {
-    content: ['./node_modules/@troychaplin79/design-ui/**/*.{js,ts,jsx,tsx}'],
+  content: ['./node_modules/@troychaplin79/idc-ui/**/*.{js,ts,jsx,tsx}'],
 }
 ```
 
 ## References
 
--   [Setting up Storybook 7 with Vite and Tailwind CSS](https://medium.com/kantega/setting-up-storybook-7-with-vite-and-tailwind-css-8e39f4343011)
--   [Build a Custom React Component Library With Storybook 7 Beta and Vite 4 in 2023](https://betterprogramming.pub/build-a-custom-react-component-library-with-storybook-7-beta-and-vite-4-in-2023-c52db4d733c0)
+- [Setting up Storybook 7 with Vite and Tailwind CSS](https://medium.com/kantega/setting-up-storybook-7-with-vite-and-tailwind-css-8e39f4343011)
+- [Build a Custom React Component Library With Storybook 7 Beta and Vite 4 in 2023](https://betterprogramming.pub/build-a-custom-react-component-library-with-storybook-7-beta-and-vite-4-in-2023-c52db4d733c0)

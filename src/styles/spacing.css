@@ -1,0 +1,25 @@
+.idc-section > .idc-container.bg-gray-100:last-child {
+  @apply -mb-8 md:-mb-12;
+}
+
+.idc-container.bg-gray-100 + .idc-container.bg-gray-100 {
+  @apply -mt-6 pt-0;
+}
+
+.idc-container.bg-gray-100 + .idc-container.bg-white {
+  @apply pt-8 md:pt-10;
+}
+
+.idc-container.bg-white + .idc-container.bg-gray-100,
+.idc-column + .idc-container {
+  @apply mt-8 md:mt-10;
+}
+
+:not(.idc-container) + .idc-container.bg-gray-100,
+.idc-container.bg-gray-100 + :not(.idc-container) {
+  @apply mt-12;
+}
+
+.idc-column > div > * {
+  @apply first:mt-0 last:mb-0;
+}
