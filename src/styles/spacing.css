@@ -2,8 +2,12 @@
   @apply -mb-8 md:-mb-12;
 }
 
+.idc-section > .idc-container.bg-gray-100:first-child {
+  @apply -mt-8 md:-mt-12;
+}
+
 .idc-container.bg-gray-100 + .idc-container.bg-gray-100 {
-  @apply -mt-6 pt-0;
+  @apply pt-0 -mt-6;
 }
 
 .idc-container.bg-gray-100 + .idc-container.bg-white {
